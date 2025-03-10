@@ -14,7 +14,7 @@ import utils.Retry;
  //   monochrome = true,
  // dryRun=true,
   //  tags = "@PlaceOrder1 or @OffersPage1 or @Smoke",
-    	    tags = "@Smokes",
+    	    tags = "@Smoke",
 
     plugin = {
         "html:target/cucumber.html",
