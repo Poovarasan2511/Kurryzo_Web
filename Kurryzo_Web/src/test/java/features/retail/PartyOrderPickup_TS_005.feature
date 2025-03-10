@@ -4,7 +4,7 @@ Feature: Party Order Pickup
     Given Open Browser and enter customer url
     When I click on Login Button in store list page
 
-  @Smoke
+  @Smokeky
   Scenario: Party Order Pickup without coupon discount
     When I search for the store location "Rambhavan Test" for Party Order Pickup without coupon discount
         And I Click on party orders tab in store listing screen and set headcount and date and time

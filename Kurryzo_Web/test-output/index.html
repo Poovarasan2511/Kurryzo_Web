@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Poovarasan.M\AppData\Local\Temp\testng-eclipse--152746647\testng-customsuite.xml</span>
+                    <span>C:\Users\Poovarasan.M\AppData\Local\Temp\testng-eclipse-1771341564\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,46 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Party Order Delivery without coupon discount&quot;, &quot;Party Order Delivery&quot;)">runScenario("Party Order Delivery without coupon discount", "Party Order Delivery")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place the retail deivery order ahead without discount with order now option&quot;, &quot;  Retail Delivery Fe...)">runScenario("Place the retail deivery order ahead without discount with order now option", "  Retail Delivery Fe...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Party Order Pickup without coupon discount&quot;, &quot;Party Order Pickup&quot;)">runScenario("Party Order Pickup without coupon discount", "Party Order Pickup")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place the retail pickup order without discount with order now option&quot;, &quot; Retail Order Feature Order...)">runScenario("Place the retail pickup order without discount with order now option", " Retail Order Feature Order...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Retail Pickup Order Ahead&quot;, &quot;Retail Pickup Order Ahead&quot;)">runScenario("Retail Pickup Order Ahead", "Retail Pickup Order Ahead")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="cucumberOptions.TestNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place the retail deivery order without discount with order now option&quot;, &quot;  Retail Delivery Feature ...)">runScenario("Place the retail deivery order without discount with order now option", "  Retail Delivery Feature ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -143,78 +118,63 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">cucumberOptions.TestNGTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Party Order Delivery without coupon discount&quot;, &quot;Party Order Delivery&quot;)">
-                  </a> <!-- runScenario("Party Order Delivery without coupon discount", "Party Order Delivery") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Party Order Delivery without coupon discount","Party Order Delivery")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Place the retail deivery order ahead without discount with order now option&quot;, &quot;  Retail Delivery Fe...)">
-                  </a> <!-- runScenario("Place the retail deivery order ahead without discount with order now option", "  Retail Delivery Fe...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Place the retail deivery order ahead without discount with order now option","  Retail Delivery Feature Order ahead")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Party Order Pickup without coupon discount&quot;, &quot;Party Order Pickup&quot;)">
                   </a> <!-- runScenario("Party Order Pickup without coupon discount", "Party Order Pickup") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Party Order Pickup without coupon discount","Party Order Pickup")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Place the retail pickup order without discount with order now option&quot;, &quot; Retail Order Feature Order...)">
-                  </a> <!-- runScenario("Place the retail pickup order without discount with order now option", " Retail Order Feature Order...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Place the retail pickup order without discount with order now option"," Retail Order Feature Order Now")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Retail Pickup Order Ahead&quot;, &quot;Retail Pickup Order Ahead&quot;)">
-                  </a> <!-- runScenario("Retail Pickup Order Ahead", "Retail Pickup Order Ahead") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Retail Pickup Order Ahead","Retail Pickup Order Ahead")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Place the retail deivery order without discount with order now option&quot;, &quot;  Retail Delivery Feature ...)">
-                  </a> <!-- runScenario("Place the retail deivery order without discount with order now option", "  Retail Delivery Feature ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Place the retail deivery order without discount with order now option","  Retail Delivery Feature Order Now")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7390262a19750f745e4b2b28d6444972, findElement {using=xpath, value=//a[@class=&apos;btn btn-outline-primary rounded-0&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\POOVAR~1.M\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7390262a19750f745e4b2b28d6444972
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
+	at java.base/java.lang.String.valueOf(String.java:4507)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
+	at actions.CustomerLoginActions.loginAsCustomer(CustomerLoginActions.java:50)
+	at stepDefinitions.CustomerLoginSteps.i_click_on_Login_Button_in_store_list_page(CustomerLoginSteps.java:45)
+	at ✽.I click on Login Button in store list page(file:///D:/QA/Kurryzo_Web/src/test/java/features/retail/PartyOrderPickup_TS_005.feature:5)
+
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Poovarasan.M\AppData\Local\Temp\testng-eclipse--152746647\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Poovarasan.M\AppData\Local\Temp\testng-eclipse-1771341564\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -271,36 +231,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(0, 3, 479);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(1, 3, 52);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(2, 3, 47);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(3, 3, 43);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'runScenario')
-data.setCell(4, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(4, 3, 42);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'runScenario')
-data.setCell(5, 2, 'cucumberOptions.TestNGTestRunner')
-data.setCell(5, 3, 38);
+data.setCell(0, 3, 18835);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 701 ms</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -328,36 +268,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">cucumberOptions.TestNGTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@4fdca00a)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5368e981)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Party Order Delivery without coupon discount", "Party Order Delivery")</span>
-                <span class="method-start">983 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Party Order Pickup without coupon discount", "Party Order Pickup")</span>
-                <span class="method-start">1466 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Place the retail deivery order ahead without discount with order now option", "  Retail Delivery Fe...)</span>
-                <span class="method-start">1515 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Place the retail deivery order without discount with order now option", "  Retail Delivery Feature ...)</span>
-                <span class="method-start">1558 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Retail Pickup Order Ahead", "Retail Pickup Order Ahead")</span>
-                <span class="method-start">1598 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Place the retail pickup order without discount with order now option", " Retail Order Feature Order...)</span>
-                <span class="method-start">1642 ms</span>
+                <span class="method-start">915 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">1701 ms</span>
+                <span class="method-start">19756 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

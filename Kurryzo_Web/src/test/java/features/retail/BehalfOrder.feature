@@ -3,7 +3,7 @@ Feature:   Behalf Order
   Background: 
     Given I Enter the Bo url and login as supervisor
 
-  @Smoke1
+  @SmokeSSSSS
   Scenario: Place the retail Behalf pickup order without discount with order now option
     And I use the Poovarasan customer login to login for Behalf pickup order now
     And I search for the location for Behalf pickup order now
