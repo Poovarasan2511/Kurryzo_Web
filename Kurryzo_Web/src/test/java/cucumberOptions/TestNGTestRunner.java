@@ -11,10 +11,10 @@ import utils.Retry;
 @CucumberOptions(
     features = "src/test/java/features",
     glue = "stepDefinitions",
- //   monochrome = true,
- // dryRun=true,
+    monochrome = true,
+    		 //  dryRun=true,
   //  tags = "@PlaceOrder1 or @OffersPage1 or @Smoke",
-    	    tags = "@Smoke",
+    	    tags = "@SmokeSSSSS",
 
     plugin = {
         "html:target/cucumber.html",

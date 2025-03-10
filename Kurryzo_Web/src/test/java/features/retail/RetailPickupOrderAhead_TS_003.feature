@@ -4,7 +4,7 @@ Feature:  Retail Pickup Order Ahead
     Given Open Browser and enter customer url
     When I click on Login Button in store list page
 
-  @Smokes
+  @Smoke
   Scenario:  Retail Pickup Order Ahead  
       When I search for the store location "Rambhavan Test" for Retail Pickup Order Ahead without coupon discount
     When I search for a store named "Rambhavan Test" for Retail Pickup Order Ahead without coupon discount
