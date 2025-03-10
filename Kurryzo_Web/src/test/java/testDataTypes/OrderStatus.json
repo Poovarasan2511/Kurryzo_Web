@@ -1,0 +1,18 @@
+{
+	"RetailPickup": {
+		"TabNew": "New",
+		"TabPreparation": "Preparation",
+		"TabPickupDelivery": "Ready for Pickup",
+		"TabComplete": "Delivered"
+	},
+	"RetailDelivery": {
+		"TabNew": "New",
+		"TabPreparation": "Preparation",
+		"TabPickupDelivery": "Send for Delivery",
+		"TabComplete": "Delivered"
+	},
+	"RetailPwickup": {
+		"TabNew": "New",
+		"TabInProcess": "in-Process"
+	}
+}

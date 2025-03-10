@@ -1,0 +1,138 @@
+{
+	"menuDetails": {
+		"Rambhavan Test": [
+			{
+				"name": "Chicken Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "170.00",
+				"size": "1Plate",
+				"price": 170.00,
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": false
+			},
+			{
+				"name": "Paneer Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "170.00",
+				"price": 170.00,
+				"size": "1Plate",
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": true
+			},
+			{
+				"name": "Paneer Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "170.00",
+				"size": "1Plate",
+				"price": 170.00,
+				"servesFor": "1",
+				"qty": "1",
+				"tax": 2,
+				"multiServingItem": true
+			},
+			{
+				"name": "Chicken Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "170.00",
+				"size": "1Plate",
+				"price": 170.00,
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": false
+			}
+
+		],
+		"New Hotel": [
+			{
+				"name": "Veg Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "180.00",
+				"size": "1Plate",
+				"price": 180.00,
+				"servesFor": "1",
+				"qty": "3",
+				"tax": 5,
+				"multiServingItem": true
+			},
+			{
+				"name": "Spicy Paneer Burger",
+				"category": "Burger",
+				"defaultPrice": "180.00",
+				"price": 180.00,
+				"size": "1Plate",
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": true
+			},
+			{
+				"name": "Cheese Chicken Burger",
+				"category": "Burger",
+				"defaultPrice": "200.00",
+				"size": "1Plate",
+				"price": 200.00,
+				"servesFor": "1",
+				"qty": "4",
+				"tax": 5,
+				"multiServingItem": true
+			},
+			{
+				"name": "Paneer Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "190.00",
+				"size": "Large",
+				"price": 250.00,
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": true
+			},
+			{
+				"name": "Paneer Zinger Burger",
+				"category": "Burger",
+				"defaultPrice": "190.00",
+				"size": "Large",
+				"price": 250.00,
+				"servesFor": "1",
+				"qty": "2",
+				"tax": 5,
+				"multiServingItem": true
+			}
+		]
+	},
+	"storeDetails": {
+		"Rambhavan Test": {
+			"searchlocation": "Nungambakkam, Chennai, Tamil Nadu",
+			"storeName": "Rambhavan Test",
+			"storeAddress": "2, Mahatma Gandhi Rd, Vannanthurai, Besant Nagar, Chennai, Tamil Nadu 600090, Chennai",
+			"MainId": 122,
+			"success": true,
+			"storeautodiscountDel": 15,
+			"packingcost_retail": 3,
+			"packingcosttax_retail": 18.00,
+			"messages": [],
+			"OrderAheadTime1": "08:30 PM",
+			"adyarDeliveryaddress": "110, Sardar Patel Rd, Baktavatsalm Nagar, Adyar, Chennai- 600020.",
+			"adyarDeliveryCharge_Dunzo": 23.00
+		},
+		"New Hotel": {
+			"searchlocation": "T. Nagar, Chennai, Tamil Nadu",
+			"storeName": "New Hotel",
+			"storeAddress": "1, Anna Salai, T. Nagar, Chennai, Tamil Nadu 600017",
+			"MainId": 123,
+			"success": true,
+			"storeautodiscountDel": 20,
+			"packingcost_retail": 5,
+			"packingcosttax_retail": 20,
+			"messages": [],
+			"OrderAheadTime1": "08:00 PM",
+			"adyarDeliveryaddress": "50, Sardar Patel Rd, Baktavatsalm Nagar, Adyar, Chennai- 600020.",
+			"adyarDeliveryCharge_Dunzo": 30.00
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"Rambhavan Test": {
+		"userName": "rambhavantest@gmail.com",
+		"password": "Test@123"
+	},
+	"Super Admin": {
+		"userName": "admin@kurrycentral.com",
+		"password": "KC@3299#"
+	},
+	"Supervisor": {
+		"userName": "supervisor@kurryzo.com",
+		"password": "Supervisor@123"
+	}
+}

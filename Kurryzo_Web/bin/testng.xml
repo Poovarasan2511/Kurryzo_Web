@@ -1,0 +1,9 @@
+<suite name="Parallel Suite" parallel="tests" thread-count="3">
+  <test name="GreenCartTests">
+    <classes>
+      <class name="stepDefinitions.RetailPickupOrderAheadSteps"/>
+      <class name="stepDefinitions.RetailPickupOrderNowSteps"/>
+      <class name="RetailDeliveryOrderSteps"/>
+    </classes>
+  </test>
+</suite>
