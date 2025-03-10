@@ -33,6 +33,7 @@ public class CustomerLoginSteps
     @Given("^Open Browser and enter customer url$")
     public void open_Browser_and_customer_url() 
     {
+    	System.err.println("Test");
         logger.info("Verifying user is on the GreenCart Landing page.");
         String customerUrl =  testContextSetup.getProperties().getProperty("customerUrl");
         testContextSetup.getDriver().get(customerUrl); 
